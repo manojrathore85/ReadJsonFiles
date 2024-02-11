@@ -35,5 +35,10 @@ namespace ReadJsonFiles.Controllers
         {
             return Ok(_myService.CreateRRRJsonFile());
         }
+        [HttpGet("CreateLeiXmlFile", Name = "CreateLeiXmlFile")]
+        public IActionResult CreateLeiXmlFile()
+        {
+            return Ok(_myService.CreateLeiXmlFile());
+        }
     }
 }

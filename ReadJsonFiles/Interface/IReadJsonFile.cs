@@ -6,5 +6,7 @@
         Task<string> ReadLEIJsonFileAsync();
         Task<string> ReadEcpJsonFileAsync();
         Task<string> CreateRRRJsonFile();
+        Task<string> CreateLeiXmlFile();
+
     }
 }

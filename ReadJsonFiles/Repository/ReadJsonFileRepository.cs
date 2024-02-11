@@ -1,9 +1,12 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using ReadJsonFiles.Controllers;
 using ReadJsonFiles.Interface;
 using ReadJsonFiles.Model;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Diagnostics.Metrics;
 using System.Net;
 using System.Text.Json;
 using System.Text.Json.Nodes;
@@ -145,8 +148,198 @@ namespace ReadJsonFiles.Repository
                 AppendElement(xmlDoc, registrationElement, "rr", "ValidationDocuments", rrrmodel.ValidationDocuments);
 
                 string path = "C:\\Mohan\\RelationshipData.xml";
+                
                 // Save the XML document to a file
+                
                 xmlDoc.Save(path);
+                string body = xmlDoc.OuterXml;
+
+                NameValueCollection nvc= new NameValueCollection();
+                nvc.Add("Username", "leil_test ");
+                nvc.Add("Password", "iGh1qt6ucjFBGuLRQwwS ");
+
+
+                var responce = PostJsonRequest<string>("https://docs-preproduction.signzy.tech/", "POST", nvc,body);
+
+                Console.WriteLine("XML file created successfully!");
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            return null;
+        }
+
+        public Task<string> CreateLeiXmlFile()
+        {
+            string connectionString = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("ConnectionStringsSQL").GetSection("ConnectionString").Value;
+            LEIModel leimodel = new LEIModel();
+            try
+            {
+                string query = "";
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        try
+                        {
+                            connection.Open();
+                            using (SqlDataReader reader = command.ExecuteReader())
+                            {
+                                if (reader.HasRows)
+                                {
+                                    while (reader.Read())
+                                    {
+                                        leimodel.LEI = reader["LEI"].ToString();
+                                        leimodel.EntityLegalName = reader["Entity LegalName"].ToString();
+                                        leimodel.EntityLegalAddressFirstAddressLine = reader["Entity LegalAddress FirstAddressLine"].ToString();
+                                        leimodel.EntityLegalAdditionalAddressLine1 = reader["Entity LegalAddress AdditionalAddressLine 1"].ToString();
+                                        leimodel.EntityLegalAddressCity = reader["Entity LegalAddress City"].ToString();
+                                        leimodel.EntityLegalAddressRegion = reader["Entity LegalAddress Region"].ToString();
+                                        leimodel.EntityLegalAddressCountry = reader["Entity LegalAddress Country"].ToString();
+                                        leimodel.EntityLegalAddressPostalCode = reader["Entity LegalAddress PostalCode"].ToString();
+                                        leimodel.EntityHeadquartersAddressFirstAddressLine = reader["Entity HeadquartersAddress FirstAddressLine"].ToString();
+                                        leimodel.EntityHeadquartersAddressAdditionalAddressLine1 = reader["Entity HeadquartersAddress AdditionalAddressLine 1"].ToString();
+                                        leimodel.EntityHeadquartersAddressCity = reader["Entity HeadquartersAddress City"].ToString();
+                                        leimodel.EntityHeadquartersAddressRegion = reader["Entity HeadquartersAddress Region"].ToString();
+                                        leimodel.EntityHeadquartersAddressCountry = reader["Entity HeadquartersAddress Country"].ToString();
+                                        leimodel.EntityHeadquartersAddressPostalCode = reader["Entity HeadquartersAddress PostalCode"].ToString();
+                                        leimodel.EntityRegistrationAuthorityRegistrationAuthorityID = reader["Entity RegistrationAuthority RegistrationAuthorityID"].ToString();
+                                        leimodel.EntityRegistrationAuthorityRegistrationAuthorityEntityID = reader["Entity RegistrationAuthority RegistrationAuthorityEntityID"].ToString();
+                                        leimodel.EntityLegalJurisdiction = reader["Entity LegalJurisdiction"].ToString();
+                                        leimodel.EntityEntityCategory = reader["Entity EntityCategory"].ToString();
+                                        leimodel.EntityLegalFormEntityLegalFormCode = reader["Entity LegalForm EntityLegalFormCode"].ToString();
+                                        
+                                        leimodel.EntityEntityStatus = reader["Entity EntityStatus"].ToString();
+                                        leimodel.EntityCreationDate = "ABC";
+                                        leimodel.RegistrationInitialRegistrationDate = reader["Registration InitialRegistrationDate"].ToString();
+                                        leimodel.RegistrationLastUpdateDate = reader["Registration LastUpdateDate"].ToString();
+                                        leimodel.RegistrationRegistrationStatus = reader["Registration RegistrationStatus"].ToString();
+                                        leimodel.RegistrationNextRenewalDate = reader["Registration NextRenewalDate"].ToString();
+                                        leimodel.RegistrationManagingLOU = reader["Registration ManagingLOU"].ToString();
+                                        leimodel.RegistrationValidationSources = reader["Registration ValidationSources"].ToString();
+                                        leimodel.RegistrationValidationAuthorityValidationAuthorityID = reader["Registration ValidationAuthority ValidationAuthorityID"].ToString();
+                                        leimodel.RegistrationValidationAuthorityValidationAuthorityEntityID = reader["Registration ValidationAuthority ValidationAuthorityEntityID"].ToString();
+           
+
+                                    }
+                                }
+                                else
+                                {
+                                    Console.WriteLine("No rows found.");
+                                }
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("Error: " + ex.Message);
+                        }
+                    }
+                }
+                // Create an instance of XmlDocument
+                XmlDocument xmlDoc = new XmlDocument();
+
+                // Create the XML declaration
+                XmlDeclaration xmlDeclaration = xmlDoc.CreateXmlDeclaration("1.0", "utf-8", null);
+
+                // Add the XML declaration to the document
+                xmlDoc.AppendChild(xmlDeclaration);
+
+                // Create the root element
+                XmlElement leiDataElement = xmlDoc.CreateElement("lei", "LEIData", "http://www.gleif.org/data/schema/leidata/2016");
+                xmlDoc.AppendChild(leiDataElement);
+
+                // Create the LEIHeader element
+                XmlElement leiHeaderElement = xmlDoc.CreateElement("lei", "LEIHeader", "http://www.gleif.org/data/schema/leidata/2016");
+                leiDataElement.AppendChild(leiHeaderElement);
+
+                // Create and append elements inside LEIHeader
+                AppendElement(xmlDoc, leiHeaderElement, "lei", "ContentDate", "2024-01-02T05:53:55.7Z");
+                AppendElement(xmlDoc, leiHeaderElement, "lei", "Originator", "335800FVH4MOKZS9VH40");
+                AppendElement(xmlDoc, leiHeaderElement, "lei", "FileContent", "LOU_FULL_PUBLISHED");
+                AppendElement(xmlDoc, leiHeaderElement, "lei", "RecordCount", "1");
+
+                // Create the LEIRecords element
+                XmlElement leiRecordsElement = xmlDoc.CreateElement("lei", "LEIRecord", "http://www.gleif.org/data/schema/leidata/2016");
+                leiDataElement.AppendChild(leiRecordsElement);
+
+                // Create the LEIRecord element
+                XmlElement leiRecordElement = xmlDoc.CreateElement("lei", "LEIRecord", "http://www.gleif.org/data/schema/leidata/2016");
+                leiRecordsElement.AppendChild(leiRecordElement);
+
+                // Create and append elements inside LEIRecord
+                AppendElement(xmlDoc, leiRecordElement, "lei", "LEI", leimodel.LEI);
+
+                // Create the Entity element
+                XmlElement entityElement = xmlDoc.CreateElement("lei", "Entity", "http://www.gleif.org/data/schema/leidata/2016");
+                leiRecordElement.AppendChild(entityElement);
+
+                // Create and append elements inside Entity
+                AppendElement(xmlDoc, entityElement, "lei", "LegalName", leimodel.EntityLegalName);
+
+                XmlElement legalAddressElement = xmlDoc.CreateElement("lei", "LegalAddress", "http://www.gleif.org/data/schema/leidata/2016");
+                entityElement.AppendChild(legalAddressElement);
+                AppendElement(xmlDoc, legalAddressElement, "lei", "FirstAddressLine", leimodel.EntityLegalAddressFirstAddressLine);
+                AppendElement(xmlDoc, legalAddressElement, "lei", "AdditionalAddressLine", leimodel.EntityLegalAdditionalAddressLine1);
+                AppendElement(xmlDoc, legalAddressElement, "lei", "City", leimodel.EntityLegalAddressCity);
+                AppendElement(xmlDoc, legalAddressElement, "lei", "Region", leimodel.EntityLegalAddressRegion);
+                AppendElement(xmlDoc, legalAddressElement, "lei", "Country", leimodel.EntityLegalAddressCountry);
+                AppendElement(xmlDoc, legalAddressElement, "lei", "PostalCode", leimodel.EntityLegalAddressPostalCode);
+
+                XmlElement headquartersAddressElement = xmlDoc.CreateElement("lei", "HeadquartersAddress", "http://www.gleif.org/data/schema/leidata/2016");
+                entityElement.AppendChild(headquartersAddressElement);
+                AppendElement(xmlDoc, headquartersAddressElement, "lei", "FirstAddressLine", leimodel.EntityHeadquartersAddressFirstAddressLine);
+                AppendElement(xmlDoc, headquartersAddressElement, "lei", "AdditionalAddressLine", leimodel.EntityLegalAdditionalAddressLine1);
+                AppendElement(xmlDoc, headquartersAddressElement, "lei", "City", leimodel.EntityHeadquartersAddressCity);
+                AppendElement(xmlDoc, headquartersAddressElement, "lei", "Region", leimodel.EntityHeadquartersAddressRegion);
+                AppendElement(xmlDoc, headquartersAddressElement, "lei", "Country", leimodel.EntityHeadquartersAddressCountry);
+                AppendElement(xmlDoc, headquartersAddressElement, "lei", "PostalCode", leimodel.EntityHeadquartersAddressPostalCode);
+
+                AppendElement(xmlDoc, entityElement, "lei", "LegalJurisdiction", leimodel.EntityLegalJurisdiction);
+                AppendElement(xmlDoc, entityElement, "lei", "EntityCategory", leimodel.EntityEntityCategory);
+                XmlElement EntityLegalFormElement = xmlDoc.CreateElement("lei", "EntityLegalForm", "http://www.gleif.org/data/schema/leidata/2016");
+                entityElement.AppendChild(EntityLegalFormElement);
+                AppendElement(xmlDoc, EntityLegalFormElement, "lei", "EntityLegalFormCode", leimodel.EntityLegalFormEntityLegalFormCode);
+                AppendElement(xmlDoc, entityElement, "lei", "EntityStatus", leimodel.EntityEntityStatus);
+                AppendElement(xmlDoc, entityElement, "lei", "EntityCreationDate", leimodel.EntityCreationDate);
+
+                // Create the Registration element
+                XmlElement registrationElement = xmlDoc.CreateElement("lei", "Registration", "http://www.gleif.org/data/schema/leidata/2016");
+                leiRecordElement.AppendChild(registrationElement);
+
+                // Create and append elements inside Registration
+                AppendElement(xmlDoc, registrationElement, "lei", "InitialRegistrationDate", leimodel.RegistrationInitialRegistrationDate);
+                AppendElement(xmlDoc, registrationElement, "lei", "LastUpdateDate", leimodel.RegistrationLastUpdateDate);
+                AppendElement(xmlDoc, registrationElement, "lei", "RegistrationStatus", leimodel.RegistrationRegistrationStatus);
+                AppendElement(xmlDoc, registrationElement, "lei", "NextRenewalDate", leimodel.RegistrationNextRenewalDate);
+                AppendElement(xmlDoc, registrationElement, "lei", "ManagingLOU", leimodel.RegistrationManagingLOU);
+                AppendElement(xmlDoc, registrationElement, "lei", "ValidationSources", leimodel.RegistrationValidationSources);
+                XmlElement validationAuthorityElement = xmlDoc.CreateElement("lei", "ValidationAuthority", "http://www.gleif.org/data/schema/leidata/2016");
+                registrationElement.AppendChild(validationAuthorityElement);
+                AppendElement(xmlDoc, validationAuthorityElement, "lei", "ValidationAuthorityID", leimodel.RegistrationValidationAuthorityValidationAuthorityID);
+                AppendElement(xmlDoc, validationAuthorityElement, "lei", "ValidationAuthorityEntityID", leimodel.RegistrationValidationAuthorityValidationAuthorityEntityID);
+
+                // Save the XML document to a file
+                string path = "C:\\Mohan\\LEIData.xml";
+                xmlDoc.Save(path);
+
+                Console.WriteLine("XML file created successfully!");
+
+
+
+                // Save the XML document to a file
+
+                xmlDoc.Save(path);
+                string body = xmlDoc.OuterXml;
+
+                NameValueCollection nvc = new NameValueCollection();
+                nvc.Add("Username", "leil_test ");
+                nvc.Add("Password", "iGh1qt6ucjFBGuLRQwwS ");
+
+
+                var responce = PostJsonRequest<string>("https://docs-preproduction.signzy.tech/", "POST", nvc, body);
+
                 Console.WriteLine("XML file created successfully!");
             }
             catch (Exception ex)
@@ -1822,6 +2015,74 @@ N'" + legalEntity.LEI + @"'
             {
                 _logger.LogError($"An error occurred: {ex.Message}");
             }
+        }
+
+        private static async Task<T> PostJsonRequest<T>(string pstrURL, string pstrMethod, NameValueCollection namevalueCollection, string pstrPostData)
+        {
+            string lstrResponse = string.Empty;
+            T result = default(T);
+            HttpWebResponse lobjWebResponse = null;
+            try
+            {
+                ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;//TLS 1.2
+                HttpWebRequest lobjWebRequest = (HttpWebRequest)WebRequest.Create(pstrURL);
+                lobjWebRequest.KeepAlive = false;
+                lobjWebRequest.Method = pstrMethod;
+                lobjWebRequest.Accept = "application/json";
+                lobjWebRequest.ContentType = "application/json";
+                lobjWebRequest.Timeout = 300000;
+                if (namevalueCollection != null && namevalueCollection.Count > 0)
+                {
+                    lobjWebRequest.Headers.Add(namevalueCollection);
+                }
+                if (pstrMethod.Equals("POST") || pstrMethod.Equals("PUT") || pstrMethod.Equals("PATCH"))
+                {
+                    StreamWriter writer = new StreamWriter(lobjWebRequest.GetRequestStream());
+                    //writer.WriteLine(pstrPostData);
+                    writer.Close();
+                }
+                lobjWebResponse = (HttpWebResponse)lobjWebRequest.GetResponse();
+                if (lobjWebResponse.StatusCode == HttpStatusCode.OK || lobjWebResponse.StatusCode == HttpStatusCode.Created)
+                {
+                    lstrResponse = ReadStream(lobjWebResponse);
+                    result = JsonConvert.DeserializeObject<T>(lstrResponse, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.All });
+                }
+            }
+            catch (WebException wex)
+            {
+                lstrResponse = ReadStream(wex.Response as HttpWebResponse);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Getting error in PostJsonRequest methods : " + ex);
+            }
+            finally
+            {
+                if (lobjWebResponse != null)
+                {
+                    lobjWebResponse.Close();
+                }
+            }
+            return result;
+        }
+        private static string ReadStream(HttpWebResponse response)
+        {
+            string lstrReturnString = string.Empty;
+            StreamReader lobjStreamReader = null;
+            try
+            {
+                lobjStreamReader = new StreamReader(response.GetResponseStream());
+                lstrReturnString = lobjStreamReader.ReadToEnd();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Getting error in ReadStream methods : " + ex);
+            }
+            finally
+            {
+                lobjStreamReader.Dispose();
+            }
+            return lstrReturnString;
         }
     }
 }

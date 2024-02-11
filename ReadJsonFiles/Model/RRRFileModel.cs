@@ -22,8 +22,7 @@ namespace ReadJsonFiles.Model
         public string RelationshipStatus { get; set; }
         public string InitialRegistrationDate { get; set; }
         public string LastUpdateDate { get; set; }
-        public string RegistrationStatus { get; set; }
-        
+        public string RegistrationStatus { get; set; }        
         public string NextRenewalDate { get; set; }
         public string ManagingLOU { get; set; }
         public string ValidationSources { get; set; }

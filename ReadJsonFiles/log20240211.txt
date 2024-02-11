@@ -1,0 +1,30 @@
+2024-02-11 12:59:48.920 +05:30  INF  Now listening on: https://localhost:7257
+2024-02-11 12:59:49.318 +05:30  INF  Now listening on: http://localhost:5220
+2024-02-11 12:59:49.341 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-02-11 12:59:49.343 +05:30  INF  Hosting environment: Development
+2024-02-11 12:59:49.343 +05:30  INF  Content root path: D:\Test\ReadJsonFiles\ReadJsonFiles\
+2024-02-11 12:59:50.580 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/swagger - -
+2024-02-11 12:59:51.241 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/swagger - - - 301 0 - 676.8175ms
+2024-02-11 12:59:51.242 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - -
+2024-02-11 12:59:52.175 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/swagger/swagger-ui.css - -
+2024-02-11 12:59:52.175 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/swagger/swagger-ui-bundle.js - -
+2024-02-11 12:59:52.175 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/swagger/swagger-ui-standalone-preset.js - -
+2024-02-11 12:59:52.175 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - -
+2024-02-11 12:59:52.175 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - - - 200 - text/html;charset=utf-8 933.2459ms
+2024-02-11 12:59:52.176 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - -
+2024-02-11 12:59:52.187 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 11.3810ms
+2024-02-11 12:59:52.323 +05:30  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-02-11 12:59:52.323 +05:30  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-02-11 12:59:52.323 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/swagger/swagger-ui.css - - - 200 144929 text/css 148.4455ms
+2024-02-11 12:59:52.339 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 163.5221ms
+2024-02-11 12:59:52.387 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 210.5417ms
+2024-02-11 12:59:52.457 +05:30  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-02-11 12:59:52.457 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 281.7026ms
+2024-02-11 12:59:52.791 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - -
+2024-02-11 12:59:52.932 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/swagger/favicon-32x32.png - -
+2024-02-11 12:59:52.933 +05:30  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-02-11 12:59:52.934 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/swagger/favicon-32x32.png - - - 200 628 image/png 1.4352ms
+2024-02-11 12:59:53.157 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 365.1524ms
+2024-02-11 12:59:59.917 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/api/ReadJsonFiles/CreateRRRJsonFile - -
+2024-02-11 12:59:59.933 +05:30  INF  Executing endpoint 'ReadJsonFiles.Controllers.ReadJsonFilesController.CreateRRRJsonFile (ReadJsonFiles)'
+2024-02-11 13:00:00.032 +05:30  INF  Route matched with {action = "CreateRRRJsonFile", controller = "ReadJsonFiles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateRRRJsonFile() on controller ReadJsonFiles.Controllers.ReadJsonFilesController (ReadJsonFiles).

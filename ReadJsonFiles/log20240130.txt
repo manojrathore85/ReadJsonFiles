@@ -1,0 +1,1322 @@
+2024-01-30 10:13:22.574 +05:30  INF  Now listening on: https://localhost:7257
+2024-01-30 10:13:22.624 +05:30  INF  Now listening on: http://localhost:5220
+2024-01-30 10:13:22.632 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-01-30 10:13:22.634 +05:30  INF  Hosting environment: Development
+2024-01-30 10:13:22.634 +05:30  INF  Content root path: D:\Test\ReadJsonFiles\ReadJsonFiles\
+2024-01-30 10:13:23.592 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - -
+2024-01-30 10:13:25.327 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - -
+2024-01-30 10:13:25.345 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 16.1010ms
+2024-01-30 10:13:25.351 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - - - 200 - text/html;charset=utf-8 1776.7021ms
+2024-01-30 10:13:25.359 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - -
+2024-01-30 10:13:25.499 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 139.7673ms
+2024-01-30 10:13:25.542 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - -
+2024-01-30 10:13:25.876 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 333.9265ms
+2024-01-30 10:14:20.243 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/api/ReadJsonFiles/GetReadExceptionJsonFile - -
+2024-01-30 10:14:20.262 +05:30  INF  Executing endpoint 'ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadExceptionJsonFile (ReadJsonFiles)'
+2024-01-30 10:14:20.304 +05:30  INF  Route matched with {action = "GetReadExceptionJsonFile", controller = "ReadJsonFiles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetReadExceptionJsonFile() on controller ReadJsonFiles.Controllers.ReadJsonFilesController (ReadJsonFiles).
+2024-01-30 10:14:20.706 +05:30  INF  Calling ReadJsonFileAsync
+2024-01-30 10:14:20.709 +05:30  INF  Calling RenameFiles
+2024-01-30 10:14:20.710 +05:30  INF  File renaming completed.
+2024-01-30 10:14:20.710 +05:30  INF  filePath C:\GLEIF Delta Files\Exception
+2024-01-30 10:14:20.710 +05:30  INF  File does not exist.
+2024-01-30 10:14:20.723 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-30 10:14:20.800 +05:30  INF  Executed action ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadExceptionJsonFile (ReadJsonFiles) in 487.5155ms
+2024-01-30 10:14:20.804 +05:30  INF  Executed endpoint 'ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadExceptionJsonFile (ReadJsonFiles)'
+2024-01-30 10:14:20.804 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/api/ReadJsonFiles/GetReadExceptionJsonFile - - - 200 - application/json;+charset=utf-8 561.6562ms
+2024-01-30 10:14:35.792 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/api/ReadJsonFiles/GetReadExceptionJsonFile - -
+2024-01-30 10:14:35.795 +05:30  INF  Executing endpoint 'ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadExceptionJsonFile (ReadJsonFiles)'
+2024-01-30 10:14:35.795 +05:30  INF  Route matched with {action = "GetReadExceptionJsonFile", controller = "ReadJsonFiles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetReadExceptionJsonFile() on controller ReadJsonFiles.Controllers.ReadJsonFilesController (ReadJsonFiles).
+2024-01-30 10:14:35.796 +05:30  INF  Calling ReadJsonFileAsync
+2024-01-30 10:14:35.796 +05:30  INF  Calling RenameFiles
+2024-01-30 10:14:35.797 +05:30  INF  File renaming completed.
+2024-01-30 10:14:35.797 +05:30  INF  filePath C:\GLEIF Delta Files\Exception
+2024-01-30 10:14:35.799 +05:30  INF  successfully collected json records from the files
+2024-01-30 10:15:48.020 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-30 10:15:48.020 +05:30  INF  Executed action ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadExceptionJsonFile (ReadJsonFiles) in 72224.7157ms
+2024-01-30 10:15:48.020 +05:30  INF  Executed endpoint 'ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadExceptionJsonFile (ReadJsonFiles)'
+2024-01-30 10:15:48.021 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/api/ReadJsonFiles/GetReadExceptionJsonFile - - - 200 - application/json;+charset=utf-8 72228.9372ms
+2024-01-30 10:20:50.613 +05:30  INF  Now listening on: https://localhost:7257
+2024-01-30 10:20:50.662 +05:30  INF  Now listening on: http://localhost:5220
+2024-01-30 10:20:50.669 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-01-30 10:20:50.669 +05:30  INF  Hosting environment: Development
+2024-01-30 10:20:50.670 +05:30  INF  Content root path: D:\Test\ReadJsonFiles\ReadJsonFiles\
+2024-01-30 10:20:51.517 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - -
+2024-01-30 10:20:52.668 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - -
+2024-01-30 10:20:52.668 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - -
+2024-01-30 10:20:52.695 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - - - 200 - text/html;charset=utf-8 1190.7740ms
+2024-01-30 10:20:52.698 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 25.6574ms
+2024-01-30 10:20:52.737 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.0073ms
+2024-01-30 10:20:52.816 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - -
+2024-01-30 10:20:53.077 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 261.0599ms
+2024-01-30 10:20:55.780 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/api/ReadJsonFiles/GetReadJsonFile - -
+2024-01-30 10:20:55.795 +05:30  INF  Executing endpoint 'ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadJsonFile (ReadJsonFiles)'
+2024-01-30 10:20:55.886 +05:30  INF  Route matched with {action = "GetReadJsonFile", controller = "ReadJsonFiles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetReadJsonFile() on controller ReadJsonFiles.Controllers.ReadJsonFilesController (ReadJsonFiles).
+2024-01-30 10:20:56.272 +05:30  INF  Calling ReadJsonFileAsync
+2024-01-30 10:20:56.275 +05:30  INF  Calling RenameFiles
+2024-01-30 10:20:56.432 +05:30  ERR  An error occurred: Cannot create a file when that file already exists.
+2024-01-30 10:20:56.432 +05:30  INF  filePath C:\GLEIF Delta Files
+2024-01-30 10:20:56.508 +05:30  INF  successfully collected json records from the file
+2024-01-30 10:21:44.688 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/api/ReadJsonFiles/GetReadLEIJsonFile - -
+2024-01-30 10:21:44.694 +05:30  INF  Executing endpoint 'ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadLEIJsonFile (ReadJsonFiles)'
+2024-01-30 10:21:44.696 +05:30  INF  Route matched with {action = "GetReadLEIJsonFile", controller = "ReadJsonFiles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetReadLEIJsonFile() on controller ReadJsonFiles.Controllers.ReadJsonFilesController (ReadJsonFiles).
+2024-01-30 10:21:44.786 +05:30  INF  Calling ReadLEIJsonFileAsync
+2024-01-30 10:21:44.787 +05:30  INF  Calling RenameFiles
+2024-01-30 10:21:44.787 +05:30  INF  File renaming completed.
+2024-01-30 10:21:44.787 +05:30  INF  filePath C:\GLEIF Delta Files\LEI
+2024-01-30 10:21:45.003 +05:30  INF  successfully collected json records from the file
+2024-01-30 10:21:46.995 +05:30  ERR  Error: Incorrect syntax near 'MERCHANTS'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---29
+2024-01-30 10:21:47.860 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---46
+2024-01-30 10:21:49.199 +05:30  ERR  Error: Incorrect syntax near 'S'.---77
+2024-01-30 10:21:49.619 +05:30  ERR  Error: Incorrect syntax near 'S'.---85
+2024-01-30 10:21:49.995 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITÉS'.---92
+2024-01-30 10:21:51.099 +05:30  ERR  Error: Incorrect syntax near 'S'.---115
+2024-01-30 10:21:52.361 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---145
+2024-01-30 10:21:53.092 +05:30  ERR  Error: Incorrect syntax near 'S'.---161
+2024-01-30 10:21:53.778 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITÉS'.---176
+2024-01-30 10:21:55.292 +05:30  ERR  Error: Incorrect syntax near 'S'.---213
+2024-01-30 10:21:57.347 +05:30  ERR  Error: Incorrect syntax near 'S'.---263
+2024-01-30 10:21:59.102 +05:30  ERR  Error: Incorrect syntax near 'S'.---305
+2024-01-30 10:22:01.066 +05:30  ERR  Error: Incorrect syntax near 'S'.---352
+2024-01-30 10:22:03.021 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---399
+2024-01-30 10:22:03.477 +05:30  ERR  Error: Incorrect syntax near 'AN'.---408
+2024-01-30 10:22:03.933 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---418
+2024-01-30 10:22:05.428 +05:30  ERR  Error: Incorrect syntax near 'S'.---454
+2024-01-30 10:22:06.045 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITÉS'.---466
+2024-01-30 10:22:08.253 +05:30  ERR  Error: Incorrect syntax near 'S'.---517
+2024-01-30 10:22:10.140 +05:30  ERR  Error: Incorrect syntax near 'B'.---553
+2024-01-30 10:22:10.767 +05:30  ERR  Error: Incorrect syntax near 'S'.---566
+2024-01-30 10:22:11.090 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---572
+2024-01-30 10:22:11.670 +05:30  ERR  Error: Incorrect syntax near 'S'.---584
+2024-01-30 10:22:12.778 +05:30  ERR  Error: Incorrect syntax near 'S'.---609
+2024-01-30 10:22:13.068 +05:30  ERR  Error: Incorrect syntax near 'S'.---614
+2024-01-30 10:22:13.600 +05:30  ERR  Error: Incorrect syntax near 'Ouest'.---626
+2024-01-30 10:22:13.764 +05:30  ERR  Error: Incorrect syntax near 'ESCH'.---627
+2024-01-30 10:22:14.010 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITÉS'.---630
+2024-01-30 10:22:14.783 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITÉS'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---648
+2024-01-30 10:22:15.307 +05:30  ERR  Error: Incorrect syntax near 'ASSURANCES'.---658
+2024-01-30 10:22:17.149 +05:30  ERR  Error: Incorrect syntax near 'S'.---704
+2024-01-30 10:22:19.670 +05:30  ERR  Error: Incorrect syntax near 's'.---764
+2024-01-30 10:22:22.723 +05:30  ERR  Error: Incorrect syntax near 'Armaille'.---838
+2024-01-30 10:22:24.209 +05:30  ERR  Error: Incorrect syntax near 'Leary'.
+The label 'T12' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---871
+2024-01-30 10:22:24.846 +05:30  ERR  Error: Incorrect syntax near 's'.
+The label 'T16' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T16' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---884
+2024-01-30 10:22:26.105 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T18' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---914
+2024-01-30 10:22:26.685 +05:30  ERR  Error: Incorrect syntax near 'Corner'.---926
+2024-01-30 10:22:27.577 +05:30  ERR  Error: Incorrect syntax near 'S'.---945
+2024-01-30 10:22:29.386 +05:30  ERR  Error: Incorrect syntax near 's'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---989
+2024-01-30 10:22:30.170 +05:30  ERR  Error: Incorrect syntax near 'actions'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1006
+2024-01-30 10:22:30.292 +05:30  ERR  Error: Incorrect syntax near 'S'.---1007
+2024-01-30 10:22:30.894 +05:30  ERR  Error: Incorrect syntax near 's'.---1020
+2024-01-30 10:22:31.953 +05:30  ERR  Error: Incorrect syntax near 's'.
+The label 'T17' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T18' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1042
+2024-01-30 10:22:33.249 +05:30  ERR  Error: Incorrect syntax near 's'.
+The label 'T16' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T16' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1069
+2024-01-30 10:22:39.128 +05:30  ERR  Error: Incorrect syntax near 'FARRELL'.---1210
+2024-01-30 10:22:39.637 +05:30  ERR  Error: Incorrect syntax near 's'.
+The label 'T16' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T16' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1221
+2024-01-30 10:22:39.909 +05:30  ERR  Error: Incorrect syntax near 'l'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T14' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1224
+2024-01-30 10:22:46.187 +05:30  ERR  Error: Incorrect syntax near 'S'.---1373
+2024-01-30 10:22:47.532 +05:30  ERR  Error: Incorrect syntax near 'L'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T14' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1404
+2024-01-30 10:22:59.625 +05:30  ERR  Error: Incorrect syntax near 'Arlon'.---1695
+2024-01-30 10:23:02.631 +05:30  ERR  Error: Incorrect syntax near 'Esch'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T17' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T17' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1767
+2024-01-30 10:23:04.553 +05:30  ERR  Error: Incorrect syntax near 'Investissement'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T08' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1809
+2024-01-30 10:23:06.670 +05:30  ERR  Error: Incorrect syntax near 's'.---1857
+2024-01-30 10:23:06.898 +05:30  ERR  Error: Incorrect syntax near 'IETEREN'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1860
+2024-01-30 10:23:07.187 +05:30  ERR  Error: Incorrect syntax near 'Investissement'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T13' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1865
+2024-01-30 10:23:07.561 +05:30  ERR  Error: Incorrect syntax near 'Investissement'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T13' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1871
+2024-01-30 10:23:07.783 +05:30  ERR  Error: Incorrect syntax near 'Investissement'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1874
+2024-01-30 10:23:09.557 +05:30  ERR  Error: Incorrect syntax near 'Investissement'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T16' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T16' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1917
+2024-01-30 10:23:11.162 +05:30  ERR  Error: Incorrect syntax near 's'.---1952
+2024-01-30 10:23:12.419 +05:30  ERR  Error: Incorrect syntax near 'Avranches'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1981
+2024-01-30 10:23:13.034 +05:30  ERR  Error: Incorrect syntax near 'Investissement'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---1991
+2024-01-30 10:23:14.638 +05:30  ERR  Error: Incorrect syntax near 'Investissement'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---2024
+2024-01-30 10:23:16.173 +05:30  ERR  Error: Incorrect syntax near 'Investissement'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---2055
+2024-01-30 10:23:17.677 +05:30  ERR  Error: Incorrect syntax near 'DI'.---2084
+2024-01-30 10:23:18.587 +05:30  ERR  Error: Incorrect syntax near 'C'.---2098
+2024-01-30 10:23:22.009 +05:30  ERR  Error: Incorrect syntax near 's'.---2166
+2024-01-30 10:23:22.050 +05:30  ERR  Records added Successfully
+2024-01-30 10:23:22.068 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-30 10:23:22.160 +05:30  INF  Executed action ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadJsonFile (ReadJsonFiles) in 146263.1736ms
+2024-01-30 10:23:22.168 +05:30  INF  Executed endpoint 'ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadJsonFile (ReadJsonFiles)'
+2024-01-30 10:23:22.168 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/api/ReadJsonFiles/GetReadJsonFile - - - 200 - application/json;+charset=utf-8 146387.3674ms
+2024-01-30 10:23:23.426 +05:30  ERR  Error: Incorrect syntax near 'DI'.---2187
+2024-01-30 10:23:26.008 +05:30  ERR  Error: Incorrect syntax near 'S'.
+Unclosed quotation mark after the character string '
+    )'.---2237
+2024-01-30 10:23:27.095 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---2255
+2024-01-30 10:23:30.135 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---2322
+2024-01-30 10:23:30.865 +05:30  ERR  Error: Incorrect syntax near 's'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T14' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---2340
+2024-01-30 10:23:32.254 +05:30  ERR  Error: Incorrect syntax near 'Esch'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---2375
+2024-01-30 10:23:35.787 +05:30  ERR  Error: Incorrect syntax near 'Esch'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---2453
+2024-01-30 10:23:39.128 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITES'.---2533
+2024-01-30 10:23:39.376 +05:30  ERR  Error: Incorrect syntax near 'OTHER'.
+The identifier that starts with '',
+'',
+'',
+'',
+'',
+N'ACTIVE',
+N'1949-12-04T05:00:00.000Z',
+N'1949-12-04T05:00:00.000Z',
+'',
+'',
+'',
+N'2017-12-15T15:3' is too long. Maximum length is 128.
+Unclosed quotation mark after the character string '',
+'',
+'',
+'',
+'',
+N'ACTIVE',
+N'1949-12-04T05:00:00.000Z',
+N'1949-12-04T05:00:00.000Z',
+'',
+'',
+'',
+N'2017-12-15T15:33'.---2535
+2024-01-30 10:23:40.011 +05:30  ERR  Error: Incorrect syntax near 'S'.---2548
+2024-01-30 10:23:53.213 +05:30  ERR  Error: Incorrect syntax near 'ORBE'.---2881
+2024-01-30 10:23:56.945 +05:30  ERR  Error: Incorrect syntax near 's'.---2975
+2024-01-30 10:24:01.752 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3091
+2024-01-30 10:24:02.380 +05:30  ERR  Error: Incorrect syntax near 'S'.---3105
+2024-01-30 10:24:04.107 +05:30  ERR  Error: Incorrect syntax near the keyword 'IN'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3145
+2024-01-30 10:24:05.634 +05:30  ERR  Error: Incorrect syntax near 'Arlon'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3184
+2024-01-30 10:24:10.214 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3298
+2024-01-30 10:24:12.439 +05:30  ERR  Error: Incorrect syntax near 's'.---3352
+2024-01-30 10:24:14.141 +05:30  ERR  Error: Incorrect syntax near 'S'.---3393
+2024-01-30 10:24:16.479 +05:30  ERR  Error: Incorrect syntax near the keyword 'Or'.
+The label 'T01' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T22' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3450
+2024-01-30 10:24:16.609 +05:30  ERR  Error: Incorrect syntax near 'Retirement'.
+The label 'T05' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3451
+2024-01-30 10:24:19.763 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T13' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3526
+2024-01-30 10:24:20.449 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T05' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3540
+2024-01-30 10:24:22.435 +05:30  ERR  Error: Incorrect syntax near 's'.---3581
+2024-01-30 10:24:26.135 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3660
+2024-01-30 10:24:27.664 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T01' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3691
+2024-01-30 10:24:29.348 +05:30  ERR  Error: Incorrect syntax near 's'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3723
+2024-01-30 10:24:30.003 +05:30  ERR  Error: Incorrect syntax near 's'.---3736
+2024-01-30 10:24:30.368 +05:30  ERR  Error: Incorrect syntax near 's'.---3742
+2024-01-30 10:24:30.923 +05:30  ERR  Error: Incorrect syntax near 's'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3753
+2024-01-30 10:24:31.511 +05:30  ERR  Error: Incorrect syntax near 'Xbiex'.---3763
+2024-01-30 10:24:32.874 +05:30  ERR  Error: Incorrect syntax near 'S'.---3792
+2024-01-30 10:24:37.775 +05:30  ERR  Error: Incorrect syntax near 'Aardappelhandel'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T21' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3882
+2024-01-30 10:24:39.537 +05:30  ERR  Error: Incorrect syntax near 's'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T09' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---3913
+2024-01-30 10:24:39.968 +05:30  ERR  Error: Incorrect syntax near 's'.---3921
+2024-01-30 10:24:41.392 +05:30  ERR  Error: Incorrect syntax near 't'.---3950
+2024-01-30 10:24:41.854 +05:30  ERR  Error: Incorrect syntax near 's'.---3958
+2024-01-30 10:24:52.786 +05:30  ERR  Error: Incorrect syntax near 'IT'.---4161
+2024-01-30 10:24:52.910 +05:30  ERR  Error: Incorrect syntax near 'DI'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T13' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T13' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4163
+2024-01-30 10:24:53.072 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4164
+2024-01-30 10:24:53.342 +05:30  ERR  Error: Incorrect syntax near 'COOPERATIVA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4166
+2024-01-30 10:24:53.426 +05:30  ERR  Error: Incorrect syntax near 'ADDA'.---4167
+2024-01-30 10:24:53.574 +05:30  ERR  Error: Incorrect syntax near 'A'.---4168
+2024-01-30 10:24:53.890 +05:30  ERR  Error: Incorrect syntax near 'SEMPLICE'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T14' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4170
+2024-01-30 10:24:54.127 +05:30  ERR  Error: Incorrect syntax near 'IT'.---4174
+2024-01-30 10:24:54.238 +05:30  ERR  Error: Incorrect syntax near 'A'.---4175
+2024-01-30 10:24:54.362 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.---4176
+2024-01-30 10:24:54.725 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.---4182
+2024-01-30 10:24:54.904 +05:30  ERR  Error: Incorrect syntax near 'A'.---4185
+2024-01-30 10:24:55.698 +05:30  ERR  Error: Incorrect syntax near 'SEMPLICE'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4197
+2024-01-30 10:24:57.710 +05:30  ERR  Error: Incorrect syntax near 'ITALIA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T12' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4215
+2024-01-30 10:24:57.964 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4217
+2024-01-30 10:24:58.871 +05:30  ERR  Error: Incorrect syntax near 'DI'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T17' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4228
+2024-01-30 10:24:59.169 +05:30  ERR  Error: Incorrect syntax near 'ACQUISTO'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T17' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T17' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4231
+2024-01-30 10:24:59.797 +05:30  ERR  Error: Incorrect syntax near 'COOPERATIVA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4242
+2024-01-30 10:25:00.044 +05:30  ERR  Error: Incorrect syntax near 'AQUILA'.---4244
+2024-01-30 10:25:00.598 +05:30  ERR  Error: Incorrect syntax near 'E'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4253
+2024-01-30 10:25:00.805 +05:30  ERR  Error: Incorrect syntax near 'DI'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4255
+2024-01-30 10:25:00.912 +05:30  ERR  Error: Incorrect syntax near 'MESOLE'.---4256
+2024-01-30 10:25:01.116 +05:30  ERR  Error: Incorrect syntax near 'PER'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T17' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4259
+2024-01-30 10:25:01.612 +05:30  ERR  Error: Incorrect syntax near 'COOPERATIVA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4269
+2024-01-30 10:25:01.862 +05:30  ERR  Error: Incorrect syntax near 'PER'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4273
+2024-01-30 10:25:02.175 +05:30  ERR  Error: Incorrect syntax near 'S'.---4278
+2024-01-30 10:25:02.384 +05:30  ERR  Error: Incorrect syntax near 'URBANO'.---4279
+2024-01-30 10:25:02.707 +05:30  ERR  Error: Incorrect syntax near 'UNIPERSONALE'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4285
+2024-01-30 10:25:02.883 +05:30  ERR  Error: 'SNC' is not a recognized built-in function name.---4287
+2024-01-30 10:25:03.071 +05:30  ERR  Error: Incorrect syntax near 'IT'.---4288
+2024-01-30 10:25:03.753 +05:30  ERR  Error: Incorrect syntax near 'IT'.---4299
+2024-01-30 10:25:04.640 +05:30  ERR  Error: Incorrect syntax near 'AQUILA'.---4311
+2024-01-30 10:25:05.071 +05:30  ERR  Error: Incorrect syntax near 'UNIPERSONALE'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4318
+2024-01-30 10:25:05.370 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4321
+2024-01-30 10:25:05.527 +05:30  ERR  Error: Incorrect syntax near ',
+N',
+N',
+N',
+N',
+N',
+N',
+N'.---4322
+2024-01-30 10:25:05.924 +05:30  ERR  Error: Incorrect syntax near 'EDILIZIA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4327
+2024-01-30 10:25:06.162 +05:30  ERR  Error: Incorrect syntax near 'SEMPLICE'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4328
+2024-01-30 10:25:06.419 +05:30  ERR  Error: Incorrect syntax near 'AMBROSIANA'.---4332
+2024-01-30 10:25:06.594 +05:30  ERR  Error: Incorrect syntax near 'FRA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T17' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T17' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4334
+2024-01-30 10:25:07.112 +05:30  ERR  Error: Incorrect syntax near 'COOPERATIVA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4345
+2024-01-30 10:25:07.375 +05:30  ERR  Error: Incorrect syntax near 'ITALIANE'.---4347
+2024-01-30 10:25:07.874 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T14' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4357
+2024-01-30 10:25:08.161 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.---4362
+2024-01-30 10:25:08.571 +05:30  ERR  Error: Incorrect syntax near 'COOPERATIVA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T14' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4369
+2024-01-30 10:25:08.911 +05:30  ERR  Error: Incorrect syntax near 'SEMPLICE'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4373
+2024-01-30 10:25:09.474 +05:30  ERR  Error: Incorrect syntax near 'it'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T08' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4383
+2024-01-30 10:25:09.814 +05:30  ERR  Error: Incorrect syntax near 'APOSTOLICA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T08' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4389
+2024-01-30 10:25:10.152 +05:30  ERR  Error: Incorrect syntax near 'DI'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T16' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4395
+2024-01-30 10:25:10.291 +05:30  ERR  Error: Incorrect syntax near 'LUCA'.---4397
+2024-01-30 10:25:10.432 +05:30  ERR  Error: Incorrect syntax near 'AOSTA'.---4399
+2024-01-30 10:25:10.656 +05:30  ERR  Error: Incorrect syntax near 'FIDUCIARIA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4403
+2024-01-30 10:25:10.885 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.
+The label 'T23' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T19' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4407
+2024-01-30 10:25:11.009 +05:30  ERR  Error: Incorrect syntax near 'ITALIANA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4408
+2024-01-30 10:25:11.762 +05:30  ERR  Error: Incorrect syntax near 'CON'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4426
+2024-01-30 10:25:12.035 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T08' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4429
+2024-01-30 10:25:12.181 +05:30  ERR  Error: Incorrect syntax near 'A'.---4430
+2024-01-30 10:25:12.269 +05:30  ERR  Error: Incorrect syntax near 'OVIDIO'.---4431
+2024-01-30 10:25:12.553 +05:30  ERR  Error: Incorrect syntax near 'COOPERATIVA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4434
+2024-01-30 10:25:12.698 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T13' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T13' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4436
+2024-01-30 10:25:12.829 +05:30  ERR  Error: Incorrect syntax near 'OGLIO'.---4437
+2024-01-30 10:25:13.232 +05:30  ERR  Error: Incorrect syntax near 'CENTRO'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T22' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4443
+2024-01-30 10:25:13.404 +05:30  ERR  Error: Incorrect syntax near 'A'.---4444
+2024-01-30 10:25:13.618 +05:30  ERR  Error: Incorrect syntax near 'SEMPLICE'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4446
+2024-01-30 10:25:14.111 +05:30  ERR  Error: Incorrect syntax near 'A'.---4457
+2024-01-30 10:25:14.599 +05:30  ERR  Error: Incorrect syntax near 'BELLINA'.---4467
+2024-01-30 10:25:14.781 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T08' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4469
+2024-01-30 10:25:15.310 +05:30  ERR  Error: Incorrect syntax near 'ANTONINO'.---4479
+2024-01-30 10:25:15.458 +05:30  ERR  Error: Incorrect syntax near 'A'.---4480
+2024-01-30 10:25:15.698 +05:30  ERR  Error: Incorrect syntax near 'SEMPLICE'.
+The identifier that starts with '',
+N'it-IT',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',' is too long. Maximum length is 128.
+Unclosed quotation mark after the character string '',
+N'it-IT',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+'.---4482
+2024-01-30 10:25:16.054 +05:30  ERR  Error: Incorrect syntax near 'A'.---4489
+2024-01-30 10:25:16.294 +05:30  ERR  Error: Incorrect syntax near 'ROCCO'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4491
+2024-01-30 10:25:16.449 +05:30  ERR  Error: Incorrect syntax near 'SEMPLICE'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4492
+2024-01-30 10:25:16.757 +05:30  ERR  Error: Incorrect syntax near 'SEMPLICE'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T14' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4496
+2024-01-30 10:25:17.036 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4500
+2024-01-30 10:25:17.155 +05:30  ERR  Error: Incorrect syntax near 'A'.---4501
+2024-01-30 10:25:17.426 +05:30  ERR  Error: Incorrect syntax near 'A'.---4506
+2024-01-30 10:25:17.840 +05:30  ERR  Error: Incorrect syntax near 'A'.---4513
+2024-01-30 10:25:18.343 +05:30  ERR  Error: Incorrect syntax near 'DI'.
+The identifier that starts with '',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'MILANO',
+N'IT-MI',
+N'IT',
+N'20121',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',' is too long. Maximum length is 128.
+Unclosed quotation mark after the character string '',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'MILANO',
+N'IT-MI',
+N'IT',
+N'20121',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'','.---4523
+2024-01-30 10:25:18.831 +05:30  ERR  Error: Incorrect syntax near 'it'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4531
+2024-01-30 10:25:19.080 +05:30  ERR  Error: Incorrect syntax near 'IT'.---4534
+2024-01-30 10:25:19.540 +05:30  ERR  Error: Incorrect syntax near 'ELPIDIO'.---4541
+2024-01-30 10:25:19.773 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4543
+2024-01-30 10:25:20.269 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.---4553
+2024-01-30 10:25:20.788 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.---4563
+2024-01-30 10:25:21.106 +05:30  ERR  Error: Incorrect syntax near 'D'.---4568
+2024-01-30 10:25:21.407 +05:30  ERR  Error: Incorrect syntax near 'DI'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T09' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T09' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4572
+2024-01-30 10:25:21.737 +05:30  ERR  Error: Incorrect syntax near 'ARTICO'.---4576
+2024-01-30 10:25:22.071 +05:30  ERR  Error: Incorrect syntax near 'DI'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4581
+2024-01-30 10:25:22.235 +05:30  ERR  Error: Incorrect syntax near 'A'.---4583
+2024-01-30 10:25:22.369 +05:30  ERR  Error: Incorrect syntax near 'AGATA'.---4585
+2024-01-30 10:25:22.818 +05:30  ERR  Error: Incorrect syntax near 'BENEFIT'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4593
+2024-01-30 10:25:23.038 +05:30  ERR  Error: Incorrect syntax near 'ALPONE'.---4597
+2024-01-30 10:25:23.186 +05:30  ERR  Error: Incorrect syntax near 'DI'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T09' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4599
+2024-01-30 10:25:23.474 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T22' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4602
+2024-01-30 10:25:23.786 +05:30  ERR  Error: Incorrect syntax near 'AURIA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4606
+2024-01-30 10:25:24.076 +05:30  ERR  Error: Incorrect syntax near 'MACCHIA'.---4610
+2024-01-30 10:25:24.439 +05:30  ERR  Error: Incorrect syntax near 'A'.---4617
+2024-01-30 10:25:24.870 +05:30  ERR  Error: Incorrect syntax near 'BENEFIT'.
+The identifier that starts with '',
+N'it-IT',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',' is too long. Maximum length is 128.
+Unclosed quotation mark after the character string '',
+N'it-IT',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+'.---4624
+2024-01-30 10:25:25.203 +05:30  ERR  Error: Incorrect syntax near 'SPORTIVA'.---4630
+2024-01-30 10:25:25.315 +05:30  ERR  Error: Incorrect syntax near 'S'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4631
+2024-01-30 10:25:25.552 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T14' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4633
+2024-01-30 10:25:26.359 +05:30  ERR  Error: Incorrect syntax near 'A'.---4649
+2024-01-30 10:25:26.732 +05:30  ERR  Error: Incorrect syntax near 'DANTE'.
+The label 'T23' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T13' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4655
+2024-01-30 10:25:27.085 +05:30  ERR  Error: Incorrect syntax near ',
+N',
+N',
+N',
+N',
+N',
+N',
+N'.---4660
+2024-01-30 10:25:27.524 +05:30  ERR  Error: Incorrect syntax near 'EZZELINO'.---4667
+2024-01-30 10:25:27.939 +05:30  ERR  Error: Incorrect syntax near 'FOSCI'.---4675
+2024-01-30 10:25:28.069 +05:30  ERR  Error: Incorrect syntax near 'A'.---4677
+2024-01-30 10:25:28.322 +05:30  ERR  Error: Incorrect syntax near 'A'.---4680
+2024-01-30 10:25:28.823 +05:30  ERR  Error: Incorrect syntax near 'COOPERATIVA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T14' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4690
+2024-01-30 10:25:28.960 +05:30  ERR  Error: Incorrect syntax near 'SEMPLICE'.
+The identifier that starts with '',
+N'it-IT',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',' is too long. Maximum length is 128.
+Unclosed quotation mark after the character string '',
+N'it-IT',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+'.---4691
+2024-01-30 10:25:29.250 +05:30  ERR  Error: Incorrect syntax near 'COOPERATIVA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T17' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4695
+2024-01-30 10:25:29.757 +05:30  ERR  Error: Incorrect syntax near 'A'.---4705
+2024-01-30 10:25:30.164 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4712
+2024-01-30 10:25:30.341 +05:30  ERR  Error: Incorrect syntax near 'PAULLO'.---4713
+2024-01-30 10:25:30.621 +05:30  ERR  Error: Incorrect syntax near 'PER'.
+The identifier that starts with ')',
+N'it-IT',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',' is too long. Maximum length is 128.
+Unclosed quotation mark after the character string ')',
+N'it-IT',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'','.---4717
+2024-01-30 10:25:30.784 +05:30  ERR  Error: Incorrect syntax near 'COOP'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T14' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4718
+2024-01-30 10:25:30.994 +05:30  ERR  Error: Incorrect syntax near 'A'.---4720
+2024-01-30 10:25:31.464 +05:30  ERR  Error: Incorrect syntax near 'TRA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4728
+2024-01-30 10:25:31.586 +05:30  ERR  Error: Incorrect syntax near 'AGOSTINO'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4729
+2024-01-30 10:25:32.006 +05:30  ERR  Error: Incorrect syntax near 'COOPERATIVA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4737
+2024-01-30 10:25:32.343 +05:30  ERR  Error: Incorrect syntax near 'PER'.---4743
+2024-01-30 10:25:32.607 +05:30  ERR  Error: Incorrect syntax near 'ANTONIO'.---4746
+2024-01-30 10:25:32.851 +05:30  ERR  Error: Incorrect syntax near 'COOPERATIVA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T14' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4749
+2024-01-30 10:25:33.078 +05:30  ERR  Error: Incorrect syntax near 'EURO'.---4750
+2024-01-30 10:25:33.798 +05:30  ERR  Error: Incorrect syntax near 'PER'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T22' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4757
+2024-01-30 10:25:34.245 +05:30  ERR  Error: Incorrect syntax near 'PER'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T12' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T12' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4766
+2024-01-30 10:25:34.465 +05:30  ERR  Error: Incorrect syntax near 'A'.---4769
+2024-01-30 10:25:34.736 +05:30  ERR  Error: Incorrect syntax near 'IT'.---4772
+2024-01-30 10:25:35.438 +05:30  ERR  Error: Incorrect syntax near 'SFINALICCHIO'.---4782
+2024-01-30 10:25:35.651 +05:30  ERR  Error: Incorrect syntax near 'ARTIGIANATO'.---4784
+2024-01-30 10:25:35.779 +05:30  ERR  Error: The identifier that starts with '',
+N'it-IT',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',' is too long. Maximum length is 128.
+Unclosed quotation mark after the character string '',
+N'it-IT',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+'.
+Incorrect syntax near '',
+N'it-IT',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'',
+N'','.---4785
+2024-01-30 10:25:35.978 +05:30  ERR  Error: Incorrect syntax near 'COOPERATIVA'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4786
+2024-01-30 10:25:36.214 +05:30  ERR  Error: Incorrect syntax near 'EMILIA'.---4789
+2024-01-30 10:25:36.483 +05:30  ERR  Error: Incorrect syntax near 'PER'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T13' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T13' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4792
+2024-01-30 10:25:36.733 +05:30  ERR  Error: Incorrect syntax near 'DI'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4795
+2024-01-30 10:25:37.157 +05:30  ERR  Error: Incorrect syntax near 'SEMPLICE'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4803
+2024-01-30 10:25:38.171 +05:30  ERR  Error: Incorrect syntax near 'A'.---4817
+2024-01-30 10:25:38.426 +05:30  ERR  Error: Incorrect syntax near 'ANGELO'.---4819
+2024-01-30 10:25:38.829 +05:30  ERR  Error: Incorrect syntax near 'PER'.---4826
+2024-01-30 10:25:39.098 +05:30  ERR  Error: Incorrect syntax near 'ANCONA'.---4830
+2024-01-30 10:25:39.466 +05:30  ERR  Error: Incorrect syntax near 'CARITAS'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4835
+2024-01-30 10:25:41.689 +05:30  ERR  Error: Incorrect syntax near 'DI'.---4887
+2024-01-30 10:25:43.019 +05:30  ERR  Error: Incorrect syntax near 'CERRATINA'.---4917
+2024-01-30 10:25:43.885 +05:30  ERR  Error: Incorrect syntax near 'TRA'.
+The label 'T23' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4936
+2024-01-30 10:25:44.236 +05:30  ERR  Error: Incorrect syntax near 'COOPERATIVA'.
+The label 'T22' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4941
+2024-01-30 10:25:45.317 +05:30  ERR  Error: Incorrect syntax near 'PECCHI'.
+The label 'T23' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T11' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4965
+2024-01-30 10:25:46.335 +05:30  ERR  Error: Incorrect syntax near 'it'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---4989
+2024-01-30 10:25:46.559 +05:30  ERR  Error: Incorrect syntax near 'Beckett'.---4992
+2024-01-30 10:25:47.031 +05:30  ERR  Error: Incorrect syntax near 'Ivoire'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---5001
+2024-01-30 10:25:48.453 +05:30  ERR  Error: Incorrect syntax near 'ORO'.---5032
+2024-01-30 10:25:48.725 +05:30  ERR  Error: Incorrect syntax near 'A'.---5036
+2024-01-30 10:25:50.179 +05:30  ERR  Error: Incorrect syntax near the keyword 'UNION'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---5068
+2024-01-30 10:25:50.596 +05:30  ERR  Error: Incorrect syntax near 'GALLUZZI'.---5073
+2024-01-30 10:25:50.876 +05:30  ERR  Error: Incorrect syntax near 'église'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T09' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---5077
+2024-01-30 10:25:51.297 +05:30  ERR  Error: Incorrect syntax near 'MARCELLO'.---5086
+2024-01-30 10:25:52.489 +05:30  ERR  Error: Incorrect syntax near 'OCA'.
+The label 'T23' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---5114
+2024-01-30 10:25:55.050 +05:30  ERR  Error: Incorrect syntax near 'A'.---5168
+2024-01-30 10:25:55.740 +05:30  ERR  Error: Incorrect syntax near 'K'.---5182
+2024-01-30 10:25:57.861 +05:30  ERR  Error: Incorrect syntax near 'A'.---5231
+2024-01-30 10:26:00.115 +05:30  ERR  Error: Incorrect syntax near 's'.---5278
+2024-01-30 10:26:01.302 +05:30  ERR  Error: Incorrect syntax near 'YSER'.---5306
+2024-01-30 10:26:03.209 +05:30  ERR  Error: Incorrect syntax near 'A'.---5351
+2024-01-30 10:26:05.152 +05:30  ERR  Error: Incorrect syntax near '21'.
+The label 'T23' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---5395
+2024-01-30 10:26:06.707 +05:30  ERR  Error: Incorrect syntax near 'EDITORIALE'.---5430
+2024-01-30 10:26:07.473 +05:30  ERR  Error: Incorrect syntax near 'aldin'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T17' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---5445
+2024-01-30 10:26:09.469 +05:30  ERR  Error: Incorrect syntax near 'S'.---5493
+2024-01-30 10:26:22.902 +05:30  ERR  Error: Incorrect syntax near 'estacio'.
+The label 'T12' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---5669
+2024-01-30 10:26:42.381 +05:30  ERR  Error: Incorrect syntax near 'ENMIG'.
+The label 'T12' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---5712
+2024-01-30 10:26:42.822 +05:30  ERR  Error: Incorrect syntax near 'ATENES'.---5716
+2024-01-30 10:26:45.232 +05:30  ERR  Error: Incorrect syntax near 'ES'.---5757
+2024-01-30 10:26:45.888 +05:30  ERR  Error: Incorrect syntax near 'ES'.---5771
+2024-01-30 10:26:46.638 +05:30  ERR  Error: Incorrect syntax near 'OCATA'.
+The label 'T12' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T13' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---5787
+2024-01-30 10:26:47.281 +05:30  ERR  Error: Incorrect syntax near 'ES'.---5799
+2024-01-30 10:26:48.726 +05:30  ERR  Error: Incorrect syntax near 'ESQUIROL'.---5831
+2024-01-30 10:26:52.673 +05:30  ERR  Error: Incorrect syntax near 'Adolf'.---5923
+2024-01-30 10:26:54.691 +05:30  ERR  Error: Incorrect syntax near 'ES'.---5971
+2024-01-30 10:26:55.945 +05:30  ERR  Error: Incorrect syntax near 'ATANGIA'.
+The label 'T12' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T12' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T13' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---5994
+2024-01-30 10:26:56.268 +05:30  ERR  Error: Incorrect syntax near 'Alqueria'.---5999
+2024-01-30 10:26:57.208 +05:30  ERR  Error: Incorrect syntax near 'ES'.---6019
+2024-01-30 10:26:59.290 +05:30  ERR  Error: Incorrect syntax near 'ENTRAIDE'.---6072
+2024-01-30 10:27:00.179 +05:30  ERR  Error: Incorrect syntax near 'EN'.---6093
+2024-01-30 10:27:00.616 +05:30  ERR  Error: Incorrect syntax near 'ESQUELBECQ'.---6101
+2024-01-30 10:27:00.864 +05:30  ERR  Error: Incorrect syntax near 'OASIS'.---6105
+2024-01-30 10:27:00.970 +05:30  ERR  Error: Incorrect syntax near 'ABLON'.---6106
+2024-01-30 10:27:01.076 +05:30  ERR  Error: Incorrect syntax near 'AVENIR'.---6107
+2024-01-30 10:27:01.175 +05:30  ERR  Error: Incorrect syntax near 'ASTORG'.---6108
+2024-01-30 10:27:01.442 +05:30  ERR  Error: Incorrect syntax near 'TERS'.---6111
+2024-01-30 10:27:01.607 +05:30  ERR  Error: Incorrect syntax near the keyword 'OR'.---6113
+2024-01-30 10:27:01.851 +05:30  ERR  Error: Incorrect syntax near 'AGENAIS'.---6115
+2024-01-30 10:27:02.173 +05:30  ERR  Error: Incorrect syntax near 'OZON'.---6120
+2024-01-30 10:27:02.589 +05:30  ERR  Error: Incorrect syntax near 'ESPERANCHE'.---6127
+2024-01-30 10:27:03.082 +05:30  ERR  Error: Incorrect syntax near 'H'.---6136
+2024-01-30 10:27:03.455 +05:30  ERR  Error: Incorrect syntax near 'HOTEL'.---6142
+2024-01-30 10:27:04.458 +05:30  ERR  Error: Incorrect syntax near 'OLONNE'.---6152
+2024-01-30 10:27:04.605 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITE'.---6154
+2024-01-30 10:27:05.141 +05:30  ERR  Error: Incorrect syntax near 'ASTORG'.---6160
+2024-01-30 10:27:05.401 +05:30  ERR  Error: Incorrect syntax near 'PLAY'.---6161
+2024-01-30 10:27:06.215 +05:30  ERR  Error: Incorrect syntax near 'IMPREGNATION'.---6169
+2024-01-30 10:27:07.221 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITE'.---6182
+2024-01-30 10:27:09.267 +05:30  ERR  Error: Incorrect syntax near 'ARCHITECTURE'.---6221
+2024-01-30 10:27:10.095 +05:30  ERR  Error: Incorrect syntax near 'TRANSPORT'.---6239
+2024-01-30 10:27:11.031 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITE'.---6259
+2024-01-30 10:27:12.076 +05:30  ERR  Error: Incorrect syntax near 'AUMONE'.---6281
+2024-01-30 10:27:12.386 +05:30  ERR  Error: Incorrect syntax near 'EXPERTISE'.---6286
+2024-01-30 10:27:12.794 +05:30  ERR  Error: Incorrect syntax near 'AZERGUES'.---6293
+2024-01-30 10:27:12.990 +05:30  ERR  Error: Incorrect syntax near 'ARTOIS'.---6296
+2024-01-30 10:27:13.171 +05:30  ERR  Error: Incorrect syntax near 'AGENCE'.---6298
+2024-01-30 10:27:14.220 +05:30  ERR  Error: Incorrect syntax near 'ABBANS'.---6320
+2024-01-30 10:27:14.493 +05:30  ERR  Error: Incorrect syntax near 'OC'.---6324
+2024-01-30 10:27:15.512 +05:30  ERR  Error: Incorrect syntax near 'H'.---6347
+2024-01-30 10:27:15.803 +05:30  ERR  Error: Incorrect syntax near 'HABITAT'.---6351
+2024-01-30 10:27:16.881 +05:30  ERR  Error: Incorrect syntax near 'ENTRAIDE'.---6375
+2024-01-30 10:27:18.165 +05:30  ERR  Error: Incorrect syntax near 'ENTREPRISES'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---6404
+2024-01-30 10:27:18.451 +05:30  ERR  Error: Incorrect syntax near 'ENERGIE'.---6408
+2024-01-30 10:27:19.178 +05:30  ERR  Error: Incorrect syntax near 'EUROPE'.---6423
+2024-01-30 10:27:19.835 +05:30  ERR  Error: Incorrect syntax near 'AMSTERDAM'.---6438
+2024-01-30 10:27:20.331 +05:30  ERR  Error: Incorrect syntax near 'ARMEE'.---6448
+2024-01-30 10:27:20.438 +05:30  ERR  Error: Incorrect syntax near 'BOIS'.---6449
+2024-01-30 10:27:20.653 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITÉ'.---6453
+2024-01-30 10:27:21.434 +05:30  ERR  Error: Incorrect syntax near 'ESSAIM'.---6469
+2024-01-30 10:27:22.112 +05:30  ERR  Error: Incorrect syntax near 'EGLISE'.---6484
+2024-01-30 10:27:23.380 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITE'.---6514
+2024-01-30 10:27:23.513 +05:30  ERR  Error: Incorrect syntax near 'ESQUELBECQ'.---6516
+2024-01-30 10:27:23.936 +05:30  ERR  Error: Incorrect syntax near 'HONORE'.---6525
+2024-01-30 10:27:24.229 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITES'.---6528
+2024-01-30 10:27:24.484 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITES'.---6531
+2024-01-30 10:27:24.868 +05:30  ERR  Error: Incorrect syntax near 'UZES'.---6537
+2024-01-30 10:27:25.375 +05:30  ERR  Error: Incorrect syntax near the keyword 'OR'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---6547
+2024-01-30 10:27:25.539 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITES'.---6549
+2024-01-30 10:27:25.718 +05:30  ERR  Error: Incorrect syntax near 'ANJOU'.---6551
+2024-01-30 10:27:25.911 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITES'.---6554
+2024-01-30 10:27:26.151 +05:30  ERR  Error: Incorrect syntax near 'OUEST'.---6558
+2024-01-30 10:27:26.689 +05:30  ERR  Error: Incorrect syntax near 'AFN'.---6567
+2024-01-30 10:27:27.097 +05:30  ERR  Error: Incorrect syntax near 'ESPACES'.---6574
+2024-01-30 10:27:28.070 +05:30  ERR  Error: Incorrect syntax near 'HORIZON'.---6595
+2024-01-30 10:27:29.807 +05:30  ERR  Error: Incorrect syntax near 'ECHIQUIER'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---6636
+2024-01-30 10:27:30.196 +05:30  ERR  Error: Incorrect syntax near 'IMPORTATION'.---6641
+2024-01-30 10:27:31.008 +05:30  ERR  Error: Incorrect syntax near 'EGLISE'.---6658
+2024-01-30 10:27:31.839 +05:30  ERR  Error: Incorrect syntax near 'YVES'.---6676
+2024-01-30 10:27:31.940 +05:30  ERR  Error: Incorrect syntax near 'EBERSHEIM'.---6677
+2024-01-30 10:27:33.571 +05:30  ERR  Error: Incorrect syntax near 'ABLON'.---6713
+2024-01-30 10:27:34.126 +05:30  ERR  Error: Incorrect syntax near 'ELEC'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---6724
+2024-01-30 10:27:36.310 +05:30  ERR  Error: Incorrect syntax near 'AZERGUES'.---6775
+2024-01-30 10:27:37.026 +05:30  ERR  Error: Incorrect syntax near 'OBREMONT'.---6791
+2024-01-30 10:27:37.192 +05:30  ERR  Error: Incorrect syntax near 'ACTIVITE'.---6792
+2024-01-30 10:27:37.649 +05:30  ERR  Error: Incorrect syntax near 'ABERGEMENT'.---6800
+2024-01-30 10:27:38.425 +05:30  ERR  Error: Incorrect syntax near 'AUMONE'.---6816
+2024-01-30 10:27:39.444 +05:30  ERR  Error: Incorrect syntax near 'ANJOU'.---6833
+2024-01-30 10:27:39.667 +05:30  ERR  Error: Incorrect syntax near 'OUEST'.---6835
+2024-01-30 10:27:42.260 +05:30  ERR  Error: Incorrect syntax near 'AMIRAL'.---6889
+2024-01-30 10:27:44.099 +05:30  ERR  Error: Incorrect syntax near 'ASCQ'.---6931
+2024-01-30 10:27:48.092 +05:30  ERR  Error: Incorrect syntax near 's'.---7029
+2024-01-30 10:27:49.669 +05:30  ERR  Error: Incorrect syntax near 'd'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T15' has already been declared. Label names must be unique within a query batch or stored procedure.
+The floating point value '9845003E650' is out of the range of computer representation (8 bytes).
+Unclosed quotation mark after the character string '
+    )'.---7065
+2024-01-30 10:27:52.164 +05:30  ERR  Error: Incorrect syntax near 'Esch'.---7126
+2024-01-30 10:27:52.704 +05:30  ERR  Error: Incorrect syntax near 'S'.---7137
+2024-01-30 10:27:53.955 +05:30  ERR  Error: Incorrect syntax near 'activité'.---7164
+2024-01-30 10:27:54.685 +05:30  ERR  Error: Incorrect syntax near 'AGRICOLA'.---7179
+2024-01-30 10:27:59.603 +05:30  ERR  Error: Incorrect syntax near 'Eau'.---7281
+2024-01-30 10:28:00.151 +05:30  ERR  Error: Incorrect syntax near 'A'.---7290
+2024-01-30 10:28:04.830 +05:30  ERR  Error: Incorrect syntax near 'ACORN'.---7382
+2024-01-30 10:28:05.759 +05:30  ERR  Error: Incorrect syntax near 'ПОЛІКОМБАНК'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---7400
+2024-01-30 10:28:07.296 +05:30  ERR  Error: Incorrect syntax near 'Italie'.---7435
+2024-01-30 10:28:07.478 +05:30  ERR  Error: Incorrect syntax near 'INDUSTRIA'.---7437
+2024-01-30 10:28:09.000 +05:30  ERR  Error: Incorrect syntax near 'A'.---7470
+2024-01-30 10:28:09.546 +05:30  ERR  Error: Incorrect syntax near 'DI'.
+The label 'T23' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T19' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---7479
+2024-01-30 10:28:11.835 +05:30  ERR  Error: Incorrect syntax near 'THE'.---7529
+2024-01-30 10:28:18.953 +05:30  ERR  Error: Incorrect syntax near 'Thrift'.
+The label 'T00' has already been declared. Label names must be unique within a query batch or stored procedure.
+The label 'T10' has already been declared. Label names must be unique within a query batch or stored procedure.
+Unclosed quotation mark after the character string '
+    )'.---7693
+2024-01-30 10:28:20.785 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-30 10:28:20.786 +05:30  INF  Executed action ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadLEIJsonFile (ReadJsonFiles) in 396089.3476ms
+2024-01-30 10:28:20.786 +05:30  INF  Executed endpoint 'ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadLEIJsonFile (ReadJsonFiles)'
+2024-01-30 10:28:20.786 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/api/ReadJsonFiles/GetReadLEIJsonFile - - - 200 - application/json;+charset=utf-8 396098.2335ms
+2024-01-30 10:39:16.675 +05:30  INF  Request starting HTTP/2 GET https://localhost:7257/api/ReadJsonFiles/GetReadExceptionJsonFile - -
+2024-01-30 10:39:16.677 +05:30  INF  Executing endpoint 'ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadExceptionJsonFile (ReadJsonFiles)'
+2024-01-30 10:39:16.687 +05:30  INF  Route matched with {action = "GetReadExceptionJsonFile", controller = "ReadJsonFiles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetReadExceptionJsonFile() on controller ReadJsonFiles.Controllers.ReadJsonFilesController (ReadJsonFiles).
+2024-01-30 10:39:16.696 +05:30  INF  Calling ReadJsonFileAsync
+2024-01-30 10:39:16.698 +05:30  INF  Calling RenameFiles
+2024-01-30 10:39:16.698 +05:30  INF  File renaming completed.
+2024-01-30 10:39:16.699 +05:30  INF  filePath C:\GLEIF Delta Files\Exception
+2024-01-30 10:39:16.702 +05:30  INF  successfully collected json records from the files
+2024-01-30 10:40:23.926 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-30 10:40:23.926 +05:30  INF  Executed action ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadExceptionJsonFile (ReadJsonFiles) in 67238.5669ms
+2024-01-30 10:40:23.926 +05:30  INF  Executed endpoint 'ReadJsonFiles.Controllers.ReadJsonFilesController.GetReadExceptionJsonFile (ReadJsonFiles)'
+2024-01-30 10:40:23.927 +05:30  INF  Request finished HTTP/2 GET https://localhost:7257/api/ReadJsonFiles/GetReadExceptionJsonFile - - - 200 - application/json;+charset=utf-8 67252.0967ms

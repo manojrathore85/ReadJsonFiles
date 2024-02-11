@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rr:RelationshipData xmlns:rr="http://www.gleif.org/data/schema/rr/2016">
+  <rr:Header>
+    <rr:ContentDate>2024-01-02T11:23:55.77Z</rr:ContentDate>
+    <rr:Originator>335800FVH4MOKZS9VH40</rr:Originator>
+    <rr:FileContent>LOU_FULL_PUBLISHED</rr:FileContent>
+    <rr:RecordCount>1</rr:RecordCount>
+  </rr:Header>
+  <rr:RelationshipRecords>
+    <rr:RelationshipRecord>
+      <rr:Relationship>
+        <rr:StartNode NodeIDType="LEI">984500770EA56BAN4B31</rr:StartNode>
+        <rr:EndNode NodeIDType="LEI">9884007ER46L6N7EI764</rr:EndNode>
+        <rr:RelationshipType>IS_INTERNATIONAL_BRANCH_OF</rr:RelationshipType>
+        <rr:RelationshipPeriods>
+          <rr:RelationshipPeriod>
+            <rr:StartDate>2004-02-05T18:30:00.001Z</rr:StartDate>
+            <rr:PeriodType>RELATIONSHIP_PERIOD</rr:PeriodType>
+          </rr:RelationshipPeriod>
+          <rr:RelationshipPeriod>
+            <rr:StartDate>2022-03-31T18:30:00.001Z</rr:StartDate>
+            <rr:EndDate>2023-03-30T18:30:00.001Z</rr:EndDate>
+            <rr:PeriodType>ACCOUNTING_PERIOD</rr:PeriodType>
+          </rr:RelationshipPeriod>
+        </rr:RelationshipPeriods>
+        <rr:RelationshipStatus>ACTIVE</rr:RelationshipStatus>
+      </rr:Relationship>
+      <rr:Registration>
+        <rr:InitialRegistrationDate>2023-12-29T12:41:44.42Z</rr:InitialRegistrationDate>
+        <rr:LastUpdateDate>2023-12-29T12:41:44.42Z</rr:LastUpdateDate>
+        <rr:RegistrationStatus>PUBLISHED</rr:RegistrationStatus>
+        <rr:NextRenewalDate>2024-12-29T07:04:33.166Z</rr:NextRenewalDate>
+        <rr:ManagingLOU>529900T8BM49AURSDO55</rr:ManagingLOU>
+        <rr:ValidationSources>FULLY_CORROBORATED</rr:ValidationSources>
+        <rr:ValidationDocuments>ACCOUNTS_FILING</rr:ValidationDocuments>
+      </rr:Registration>
+    </rr:RelationshipRecord>
+  </rr:RelationshipRecords>
+</rr:RelationshipData>
